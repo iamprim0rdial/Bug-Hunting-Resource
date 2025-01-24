@@ -2,10 +2,10 @@
 
 ### **1. All Subdomains**
 
-- **subfinder**  
-  Enumerate subdomains and get all results: use -dL (for domain.txt file [ file containing domains ])  
-  `subfinder -d example.com -all -recursive -o subdomain.txt`
-   
+- **subfinder**    **: Note: [ -all ] use all sources for enumeration (Need API)**  
+    Enumerate subdomains and get all results:   
+  `subfinder -d example.com -all -recursive -o subdomain.txt`  
+  `subfinder -dL domain.txt -all  -o subdomain.txt`  
 
 - **assetfinder**  
   Retrieve a list of subdomains using Assetfinder:  
@@ -26,7 +26,7 @@
 - **alienvault**   
   Query AlienVault for passive DNS data:
   ```bash  
-  curl -fs "https://otx.alienvault.com/api/v1/indicators/hostname/granularinsurance.com/passive_dns" | jq -r '.passive_dns[]?.hostname' | grep -Ei "^[a-zA-Z0-9.-]+\.granularinsurance\.com$" | anew | tee alienvault_subs.txt`
+  curl -fs "https://otx.alienvault.com/api/v1/indicators/hostname/example.com/passive_dns" | jq -r '.passive_dns[]?.hostname' | grep -Ei "^[a-zA-Z0-9.-]+\.example\.com$" | anew | tee alienvault_subs.txt`
 
 ---
 
@@ -78,7 +78,7 @@ httpx-toolkit -l all_subdomain.txt -ports 80,81,3000,3001,8443,10000,9000,9443,4
 
 ### Check for WAF ( web application firewall )
 ```
-cat subdomains.txt | httpx-toolkit -waf -v -ua "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" -timeout 5
+cat subdomains.txt | httpx-toolkit -waf -v -ua "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" -timeout 5 -o waf-httpx.txt
 ```
 
 
