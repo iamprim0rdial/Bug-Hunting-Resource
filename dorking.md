@@ -156,7 +156,7 @@
 
 ---
 
-- **GitHub Dorks**:  
+- **GitHub Dorks**  
   `site:github.com "Target" inurl:secret`  
   `site:github.com "Target" inurl:token`  
   `site:github.com "Target" inurl:key`
@@ -165,3 +165,6 @@
   `site:openbugbounty.org inurl:reports intext:”Target”`
   
 ---
+
+- **Subdomain Discovery**  
+   `site:example.com -www -shop -ir -mfa`
