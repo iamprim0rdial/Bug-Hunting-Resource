@@ -17,6 +17,10 @@
 - **amass**  
   Perform active subdomain enumeration with Amass:  
   `amass enum -active -norecursive -noalts -d example.com -o amass.txt`
+
+- **dnsrecon**  
+  DNS Recon tool for additional subdomain and DNS information gathering:  
+  `dnsrecon -d example.com -t std`
   
 - **alienvault**   
   Query AlienVault for passive DNS data:  
