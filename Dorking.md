@@ -81,9 +81,12 @@
 ## **4. Code and Sensitive Data Exposure**
 
 - **Exposed Code Leaks**  
-  `site:pastebin.com “Target”`  
-  `site:jsfiddle.net “Target”`  
-  `site:codebeautify.org “Target”`  
+  `site:pastebin.com “Target”`
+  
+  `site:jsfiddle.net “Target”`
+  
+  `site:codebeautify.org “Target”`
+  
   `site:codepen.io “Target”`
 
 ---
@@ -131,7 +134,7 @@
 
 ---
 
-## **6. Well Some Other Dorks :) **
+## **6. Well Some Other Dorks**
 
 - **JFrog Artifactory**  
   `site:jfrog.io “Target”`
@@ -157,8 +160,10 @@
 ---
 
 - **GitHub Dorks**  
-  `site:github.com "Target" inurl:secret`  
-  `site:github.com "Target" inurl:token`  
+  `site:github.com "Target" inurl:secret`
+   
+  `site:github.com "Target" inurl:token`
+  
   `site:github.com "Target" inurl:key`
 
 - **Bug Bounty Platforms**:  
