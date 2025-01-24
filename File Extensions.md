@@ -1,3 +1,5 @@
+# Important File Extension :) 
+
 1. **.php** -- [PHP script files, used in web applications]  
    
 2. **.html** -- [HTML files, which contain the basic structure of web pages]  
@@ -90,4 +92,6 @@
    
 46. **.idb / .pdb** -- [Database files and debug symbols, which may contain sensitive information or details about a system]  
    
-47. **.psd / .ai** -- [Graphic design files such as Adobe Photoshop or Illustrator that may contain sensitive information or intellectual property]  
+47. **.psd / .ai** -- [Graphic design files such as Adobe Photoshop or Illustrator that may contain sensitive information or intellectual property]
+    
+---
