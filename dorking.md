@@ -1,4 +1,4 @@
-# Google Dorks for Target Reconnaissance and Security Testing
+# Google Dorks for Security Testing
 
 ## **1. General Google Dorks**
 
@@ -156,9 +156,6 @@
 
 ---
 
-### **Additional Recommendations:**
-If any further dorks or techniques need to be added, consider:
-
 - **GitHub Dorks**:  
   `site:github.com "Target" inurl:secret`  
   `site:github.com "Target" inurl:token`  
@@ -168,5 +165,3 @@ If any further dorks or techniques need to be added, consider:
   `site:openbugbounty.org inurl:reports intext:”Target”`
   
 ---
-
-These dorks and techniques will help in gathering relevant information about the target, identifying potential vulnerabilities, and performing reconnaissance during a security engagement.
