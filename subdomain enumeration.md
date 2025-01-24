@@ -3,8 +3,9 @@
 ### **1. All Subdomains**
 
 - **subfinder**  
-  Enumerate subdomains and get all results:  
-  `subfinder -d example.com -all -recursive -o subdomain.txt`  
+  Enumerate subdomains and get all results: use -dL (for domain.txt file [ file containing domains ])  
+  `subfinder -d example.com -all -recursive -o subdomain.txt`
+   
 
 - **assetfinder**  
   Retrieve a list of subdomains using Assetfinder:  
@@ -23,38 +24,54 @@
   `dnsrecon -d example.com -t std`
   
 - **alienvault**   
-  Query AlienVault for passive DNS data:  
-  `curl -fs "https://otx.alienvault.com/api/v1/indicators/hostname/granularinsurance.com/passive_dns" | jq -r '.passive_dns[]?.hostname' | grep -Ei "^[a-zA-Z0-9.-]+\.granularinsurance\.com$" | anew | tee alienvault_subs.txt`
+  Query AlienVault for passive DNS data:
+  ```bash  
+  curl -fs "https://otx.alienvault.com/api/v1/indicators/hostname/granularinsurance.com/passive_dns" | jq -r '.passive_dns[]?.hostname' | grep -Ei "^[a-zA-Z0-9.-]+\.granularinsurance\.com$" | anew | tee alienvault_subs.txt`
 
 ---
 
 - **web.archive.org (Wayback Machine)**    
-  Use the Wayback Machine to discover historical subdomains:  
-  `curl -fs "http://web.archive.org/cdx/search/cdx?url=*.example.com/*&output=json&collapse=urlkey" | jq -r '.[1:][] | .[2]' | grep -Ei '([a-zA-Z0-9_-]+\.)?example\.com' | anew | tee webarchive_subs.txt`
+  Use the Wayback Machine to discover historical subdomains:
+  ```bash  
+  curl -fs "http://web.archive.org/cdx/search/cdx?url=*.example.com/*&output=json&collapse=urlkey" | jq -r '.[1:][] | .[2]' | grep -Ei '([a-zA-Z0-9_-]+\.)?example\.com' | anew | tee webarchive_subs.txt`
 
 ---
 
 - **urlscan.io**    
-  Extract subdomains using URLScan.io API:  
-  `curl -fs "https://urlscan.io/api/v1/search/?q=domain:example.com&size=10000" | jq -r '.results[]?.page?.domain' | grep -Ei "^[a-zA-Z0-9.-]+\.example\.com$|^example\.com$" | anew | tee urlscan_subs.txt`
+  Extract subdomains using URLScan.io API:
+  ```bash
+  curl -fs "https://urlscan.io/api/v1/search/?q=domain:example.com&size=10000" | jq -r '.results[]?.page?.domain' | grep -Ei "^[a-zA-Z0-9.-]+\.example\.com$|^example\.com$" | anew | tee urlscan_subs.txt`
 
 ---
 
+  - **crt.sh**  
+  ``Retrieve subdomains from Certificate Transparency logs this is bash script:  
+  ```bash
+     curl -s https://crt.sh/?q=%.$1&output=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u | tee -a crtsh.txt     
+```
+---
 - **gobuster**    
   Use Gobuster for DNS subdomain brute force:  
   `gobuster dns -d example.com -w /usr/share/wordlists/subdomain_megalist.txt -o gobuster.txt`
 
 ---
 
-- **Combine results**  
-  Aggregate all discovered subdomains:
-  `cat *.txt | anew all_subdomain.txt`
+- **Combine results**    
+  Aggregate all discovered subdomains:  
+  `cat *.txt | anew all_subdomain.txt`  
+  
+--- 
 
----
-  - **crt.sh**  
-  Retrieve subdomains from Certificate Transparency logs this is bash script:  
-  ```bash
-      curl -s https://crt.sh/?q=%.$1&output=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u | tee -a crtsh.txt     
+## Filter live subdomains
+   ```bash
+   cat all_subdomain.txt | httpx-toolkit -td -title -sc -ip > live.txt
+
+```
+### Extract live subdomains:  
+`cat live.txt | awk '{print $1}' > live_subdomain.txt`  
 
 
+### Check for open ports on the subdomains:  
+```bash
+httpx-toolkit -l all_subdomain.txt -ports 80,81,3000,3001,8443,10000,9000,9443,443,8080,8000,8888,4443,2075,2076,6443,3868,3366,9091,5900,8081,6000,8181,3306,5000,4000,5432,15672,9999,161,4044,7077,4040,8089 -threads 80 -o alive.txt`  
 
