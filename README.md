@@ -1,10 +1,10 @@
-# Bug Hunting Resource 
-## Feel free to use any method, idea and I'd appreciate a credit or shoutout if you do! :)
-### By - Vishal AKA Prim0rdial
+# Bug Hunting Resource 😁✌️ By - Vishal AKA Prim0rdial
+## Feel free to use any method✍️, idea💡 and I'd appreciate a credit or shoutout if you do!✌️ 
+
 
 - **Resources for study and practice**
 ---
-  **Best Security Channels**<br>
+  **Best Security Channels 🎥**<br>
   - https://www.youtube.com/@rs0n_live
   - https://www.youtube.com/@HackerSploit
   - https://www.youtube.com/@LiveOverflow
@@ -25,7 +25,7 @@
 
 ---
 
-  **Programming**<br>
+  **Programming🤓**<br>
   - https://www.youtube.com/@Indently 
   - https://www.youtube.com/@freecodecamp
   - https://www.youtube.com/@NeuralNine
@@ -33,6 +33,6 @@
   -  https://www.youtube.com/@CSDojo
 ---
 
-**Stories :)**  
+**Stories😍**  
 - https://www.youtube.com/@ThinkerYT
 - https://www.youtube.com/@fern-tv
