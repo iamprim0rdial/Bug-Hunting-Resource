@@ -16,11 +16,6 @@
 14. `shodan_api_key language:python` -- [Shodan API Keys (try other languages)]  
 15. `filename:logins.json` -- [Firefox saved password collection (key3.db usually in the same repo)]  
 16. `filename:settings.py SECRET_KEY` -- [Django secret keys (usually allows for session hijacking, RCE, etc.)]  
-
----
-
-### Additional Useful GitHub Dorks
-
 17. `extension:env API_KEY` -- [Exposed environment configuration files containing API keys]  
 18. `extension:json private_key` -- [Exposed private keys in JSON files]  
 19. `filename:docker-compose.yml password` -- [Docker Compose files with password credentials]  
