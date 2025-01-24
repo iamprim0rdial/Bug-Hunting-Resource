@@ -131,7 +131,7 @@
 
 ---
 
-## **6. Additional Dorks**
+## **6. Well Some Other Dorks :) **
 
 - **JFrog Artifactory**  
   `site:jfrog.io “Target”`
@@ -165,6 +165,3 @@
   `site:openbugbounty.org inurl:reports intext:”Target”`
   
 ---
-
-- **Subdomain Discovery**  
-   `site:example.com -www -shop -ir -mfa`
