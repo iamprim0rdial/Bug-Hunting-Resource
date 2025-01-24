@@ -73,5 +73,12 @@
 
 ### Check for open ports on the subdomains:  
 ```bash
-httpx-toolkit -l all_subdomain.txt -ports 80,81,3000,3001,8443,10000,9000,9443,443,8080,8000,8888,4443,2075,2076,6443,3868,3366,9091,5900,8081,6000,8181,3306,5000,4000,5432,15672,9999,161,4044,7077,4040,8089 -threads 80 -o alive.txt`  
+httpx-toolkit -l all_subdomain.txt -ports 80,81,3000,3001,8443,10000,9000,9443,443,8080,8000,8888,4443,2075,2076,6443,3868,3366,9091,5900,8081,6000,8181,3306,5000,4000,5432,15672,9999,161,4044,7077,4040,8089 -threads 80 -o alive.txt
+```
+
+### Check for WAF ( web application firewall )
+```
+cat subdomains.txt | httpx-toolkit -waf -v -ua "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" -timeout 5
+```
+
 
