@@ -4,19 +4,19 @@
 
 
   **Bug Bounty Platforms 💸**<br>
-  - [HackerOne](https://www.hackerone.com)  
-  - [Bugcrowd](https://www.bugcrowd.com)  
+  - **[HackerOne](https://www.hackerone.com)**  
+  - **[Bugcrowd](https://www.bugcrowd.com)** 
 
 ---
 
   **Learning & Practice Platforms 📚**<br>
-  - [PortSwigger Web Security Academy](https://portswigger.net/web-security)  
-  - [CTF365](https://www.ctf365.com)  
-  - [PentesterLab](https://www.pentesterlab.com)  
-  - [OverTheWire](https://overthewire.org/wargames/)  
-  - [VulnHub](https://www.vulnhub.com)
-  - [TryHackMe](https://tryhackme.com)
-  - [Hack The Box (HTB)](https://www.hackthebox.eu)   
+  - **[PortSwigger Web Security Academy](https://portswigger.net/web-security)**  
+  - **[CTF365](https://www.ctf365.com)**  
+  - **[PentesterLab](https://www.pentesterlab.com)**  
+  - **[OverTheWire](https://overthewire.org/wargames/)** 
+  - **[VulnHub](https://www.vulnhub.com)**
+  - **[TryHackMe](https://tryhackme.com)**
+  - **[Hack The Box (HTB)](https://www.hackthebox.eu)**   
 
 ---
 ✨ 
@@ -56,3 +56,7 @@
 
 **Cheatsheet 📝**
 **[ https://pentestmonkey.net/category/cheat-sheet ]** 
+
+---
+
+- **[@trilokdhaked](https://github.com/trilokdhaked/Bug-Bounty-Methodology)**
