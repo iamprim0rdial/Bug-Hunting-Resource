@@ -1,5 +1,5 @@
-# Top Vulnerability Parameters
-
+# Top Vulnerability Parameters 
+**by [@trbughunters](https://x.com/trbughunters)**
 ## Local File Inclusion (LFI) Parameters
 
 - `?cat={payload}`
@@ -61,7 +61,7 @@
 - `?source={payload}`
 - `?referrer={payload}`
 
-## SQL Injection Parameters (For @trbughunters)
+## SQL Injection Parameters 
 
 - `?id={payload}`
 - `?page={payload}`
