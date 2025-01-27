@@ -1,7 +1,7 @@
    # Jai shree Radhe krishna 
-# Bug Hunting Resource 🐞 By Vishal AKA Prim0rdial✌️
+## Hi 👋, I'm Vishal aka prim0rdial
 
-**Welcome to the Bug Hunting Resource repository! 🎯 Everything you find here is the result of hard work put in by me, alongside resources I have collected from various sources across the internet, including platforms like Twitter, LinkedIn, and other websites. I created this repository so that all the information is in one place for you, saving you time and effort! ⏳ If you're new to bug hunting, or just looking for a consolidated source of information, this repo will be your guide. Please feel free to use the resource and **contribute** by adding or updating content! 💻**
+**Welcome to the Bug Hunting Resource🐞 repository! 🎯 Everything you find here is the result of hard work put in by me, alongside resources I have collected from various sources across the internet, including platforms like Twitter, LinkedIn, Medium articles and other websites. I created this repository so that all the information is in one place for you, saving you time and effort! ⏳ If you're new to bug hunting, or just looking for a consolidated source of information, this repo will be your guide. Please feel free to use the resource and **contribute** by adding or updating content! 💻**
 
 ### Why this repo?
 **My goal with this repository is to help anyone starting in bug hunting or security research. There's no need to waste time searching around for various resources – it's all here for you. 💡**
