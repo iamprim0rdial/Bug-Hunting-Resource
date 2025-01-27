@@ -59,4 +59,5 @@
 
 ---
 
-- **[@trilokdhaked](https://github.com/trilokdhaked/Bug-Bounty-Methodology)**
+- **Medium Articles 📝**
+- **Soon..**
