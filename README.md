@@ -54,7 +54,8 @@
   - **[LegionHunter](https://www.youtube.com/@LegionHunter)**  
   - **[internetstormcenterstormca2350](https://www.youtube.com/@internetstormcenterstormca2350)**  
   - **[AlexChaveriat](https://www.youtube.com/@AlexChaveriat)**  
-  - **[cryptoknight01](https://www.youtube.com/@cryptoknight01)**  
+  - **[cryptoknight01](https://www.youtube.com/@cryptoknight01)**
+  - **[BePracticalTech](https://www.youtube.com/@BePracticalTech)**   
 
 ---
 
