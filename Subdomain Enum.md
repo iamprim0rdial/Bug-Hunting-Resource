@@ -17,7 +17,7 @@
 
 - **amass**  
   Perform active subdomain enumeration with Amass:  
-  `amass enum -active -norecursive -d example.com -o amass.txt`
+  `amass enum -active -norecursive -d example.com -o amass.txt`  
   `use $ cat amass.txt | awk '{print $1}' | anew amass_subdomains.txt `
 
 - **dnsrecon**  
