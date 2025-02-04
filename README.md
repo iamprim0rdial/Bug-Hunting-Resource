@@ -41,7 +41,8 @@
   - **[rs0n_live](https://www.youtube.com/@rs0n_live)**  
   - **[HackerSploit](https://www.youtube.com/@HackerSploit)**  
   - **[LiveOverflow](https://www.youtube.com/@LiveOverflow)**  
-  - **[NahamSec](https://www.youtube.com/@NahamSec)**  
+  - **[NahamSec](https://www.youtube.com/@NahamSec)**
+  - **[_JohnHammond](https://www.youtube.com/@_JohnHammond)**   
   - **[NullByteWHT](https://www.youtube.com/@NullByteWHT)**  
   - **[davidbombal](https://www.youtube.com/@davidbombal)**  
   - **[LoiLiangYang](https://www.youtube.com/@LoiLiangYang)**  
@@ -55,7 +56,8 @@
   - **[internetstormcenterstormca2350](https://www.youtube.com/@internetstormcenterstormca2350)**  
   - **[AlexChaveriat](https://www.youtube.com/@AlexChaveriat)**  
   - **[cryptoknight01](https://www.youtube.com/@cryptoknight01)**
-  - **[BePracticalTech](https://www.youtube.com/@BePracticalTech)**   
+  - **[BePracticalTech](https://www.youtube.com/@BePracticalTech)**
+    
 
 ---
 
