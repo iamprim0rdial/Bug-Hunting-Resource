@@ -42,7 +42,7 @@
   - **[HackerSploit](https://www.youtube.com/@HackerSploit)**  
   - **[LiveOverflow](https://www.youtube.com/@LiveOverflow)**  
   - **[NahamSec](https://www.youtube.com/@NahamSec)**
-  - **[_JohnHammond](https://www.youtube.com/@_JohnHammond)**   
+  - **[JohnHammond](https://www.youtube.com/@_JohnHammond)**   
   - **[NullByteWHT](https://www.youtube.com/@NullByteWHT)**  
   - **[davidbombal](https://www.youtube.com/@davidbombal)**  
   - **[LoiLiangYang](https://www.youtube.com/@LoiLiangYang)**  
