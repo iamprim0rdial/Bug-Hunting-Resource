@@ -19,6 +19,8 @@
 
 ### Resources for study and practice
 
+**Best Notes**  
+- **[0xBEN aka Ben heater](https://notes.benheater.com/)**
 
   **Bug Bounty Platforms 💸**<br>
   - **[HackerOne](https://www.hackerone.com)**  
@@ -37,7 +39,7 @@
 
 ---
 ✨ 
-  **Best Security Channels 🎥**<br>  
+  **Best Security Engineers || Channels 🎥**<br>  
   - **[rs0n_live](https://www.youtube.com/@rs0n_live)**  
   - **[HackerSploit](https://www.youtube.com/@HackerSploit)**  
   - **[LiveOverflow](https://www.youtube.com/@LiveOverflow)**  
