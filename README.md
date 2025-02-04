@@ -12,7 +12,7 @@
 **Connect with me:**
 <h3 align="left"></h3>
 <p align="left">
-  <a href="linkedin.com/in/vishal-r-2701b2181" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin.com/in/vishal-r-2701b2181" height="30" width="40" /></a>
+  <a href="[linkedin.com/in/vishal-r-2701b2181](https://www.linkedin.com/in/vishal-r-2701b2181)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin.com/in/vishal-r-2701b2181" height="30" width="40" /></a>
 <a href="https://x.com/iamprim0rdial" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="iamprim0rdial" height="30" width="40" /></a>
 <a href="https://www.instagram.com/wishishere_/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="wishishere_" height="30" width="40" /></a>
 
