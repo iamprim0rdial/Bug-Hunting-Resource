@@ -1,5 +1,5 @@
 # Created and Manage by **[@cybertrix](https://github.com/thecybertix)**
-## A special thank you for that wonderful tool 😊
+## A special thank you for that wonderful collections 😊
 # One-Liner-Collections
 This Repositories contains list of One Liners with Descriptions and Installation requirements
 
