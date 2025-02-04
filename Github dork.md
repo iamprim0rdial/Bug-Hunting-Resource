@@ -186,4 +186,39 @@
 
 ---
 
-**Note**: These dorks are intended to aid you in the search for sensitive files or credentials that might have accidentally been leaked on GitHub. Always ensure that your sensitive data is not committed to public repositories in order to avoid security vulnerabilities.
+**info**
+- PASSWORD
+- PWD
+- KEY
+- API
+- TOKEN
+- ACCESS_TOKEN
+- SECRETKEY
+- CLIENT-SECRET
+- CLIENT_SECRET
+- SECRET@target.com
+- DEV
+- PROD
+- JENKINS
+- CONFIG
+- SSH
+- FTP
+- MYSQL
+- ADMIN
+- AWS
+- DASHBOARD
+- BUCKET
+- ST NO
+- CVV
+- GITHUB_TOKEN
+- =http
+- OTP
+- OAUTH
+- AUTHORIZATION
+- LDAP
+- INTERNAL
+- language:sql
+- language:json
+- language:txt
+
+**Note**: All we need to do is search for these keywords in GitHub after "target.com". For example, to look for passwords, we can search **` "target.com" password `** or **` "target.com" pwd `** in GitHub. These dorks are intended to aid you in the search for sensitive files or credentials that might have accidentally been leaked on GitHub. Always ensure that your sensitive data is not committed to public repositories in order to avoid security vulnerabilities.
