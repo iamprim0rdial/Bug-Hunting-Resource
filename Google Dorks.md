@@ -21,7 +21,8 @@
   `inurl:example.com intext:admin ext:sql inurl:admin`
 
 - **Sensitive Key Exposure**  
-  `inurl:example.com allintext:username,password filetype:log site:example.com "-----BEGIN RSA PRIVATE KEY-----" -inurl:id_rsa`
+  `inurl:example.com allintext:username,password filetype:log`  
+  `site:example.com "-----BEGIN RSA PRIVATE KEY-----" -inurl:id_rsa`  
 
 ---
 
