@@ -11,9 +11,18 @@
 - **Config/Backup Files**  
   `inurl:example.com intitle:"index of /" "config.db"`
   
-- **File Extensions for Sensitive Data**  
-  `inurl:example.com filetype: xls | csv | pdf | doc | ppt | xlsx | zip | tar | gz | bz2 | 7z | rar | docx | txt | bak | old | swp | tmp `  
-  `inurl:example.com intitle:"index of" ext: sql | db | config | aspx | asp | log | dmp | env`
+- **File Extensions for Sensitive Data**
+  - **Database Files**  
+    `inurl:example.com  ext:sql | ext:db  | ext:env | ext:cfm | ext:pl | ext:rb | ext:dbf | ext:mdb | ext:sql.gz | ext:sql.gz | ext:db.gz | ext:db.gz `
+  - **Config Files**  
+    `inurl:example.com intitle:"index of" | ext:spx | ext:asp | ext:env | ext:cfm | ext:config | ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:env | ext:ini`
+  - **Documents File**  
+     `inurl:example.com ext: xls | ext:csv | ext:pdf | ext:doc | ext:ppt | ext:xlsx | ext:log  | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:docx`
+  - **Backup Files**  
+      `inurl:example.com ext:zip | ext:tar | ext:gz | ext:bz2 | ext:7z | ext:rar  | ext:txt | ext: bak | ext:old | ext:swp | ext:tmp | ext:bkf | ext:bkp | ext:backup | ext:dmp`
+  - **Other ext**    
+    ```inurl:example.com intitle:index.of | ext:log | ext:php intitle:phpinfo "published by the PHP Group" | inurl:shell | inurl:backdoor | inurl:wso | inurl:cmd | shadow | passwd | boot.ini |                      inurl:backdoor | inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config | inurl:"/phpinfo.php" | inurl:".htaccess" | ext:swf
+    ```
   
 - **API Secrets Exposure**  
   `inurl:example.com allintext:"API_SECRET*" ext:env | ext:yml`
@@ -65,15 +74,17 @@
 - **SSRF Prone Parameters**  
   `inurl:http | inurl:url= | inurl:path= | inurl:dest= | inurl:html= | inurl:data= | inurl:domain= | inurl:page= inurl:& site:example.com`
 
-- **LFI Prone Parameters**
+- **LFI Prone Parameters**  
   `inurl:include | inurl:dir | inurl:detail= | inurl:file= | inurl:folder= | inurl:inc= | inurl:locate= | inurl:doc= | inurl:conf= inurl:& site:Target`
 
-- **Open Redirect prone Param**
-  `inurl:url | inurl:return= | inurl:next= | inurl:redirect= | inurl:redir= | inurl:ret= | inurl:r2= | inurl:page= inurl:& inurl:http site:Target`
+- **Open Redirect prone Param**    
+  `inurl:url | inurl:return= | inurl:next= | inurl:redirect= | inurl:redir= | inurl:ret= | inurl:r2= | inurl:page= | inurl:url | inurl:location= | inurl:dest= | inurl:src=http | inurl:r=http | inurl:& inurl:http site:Target`  
 
-- **RCE prone Parameter**
-  `inurl:cmd | inurl:exec= | inurl:query= | inurl:code= | inurl:do= | inurl:run= | inurl:read= | inurl:ping= inurl:& site:Target`  
-  
+- **RCE prone Parameter**  
+  `inurl:cmd | inurl:exec= | inurl:query= | inurl:code= | inurl:do= | inurl:run= | inurl:read= | inurl:ping= inurl:& site:Target`
+
+- **Error prone Parameter**
+  `inurl:"error" | intitle:"exception" | intitle:"failure" | intitle:"server at" | inurl:exception | "database error" | "SQL syntax" | "undefined index" | "unhandled exception" | "stack trace" site:example[.]com`
 ---
 
 ## **4. Code and Sensitive Data Exposure**
@@ -133,9 +144,10 @@
   site:domain.com "drive.google.com/drive/u/1"
   site:drive.google.com “Target” ```
   
-- **Azure Blob Storage Exposure**  
+- **Azure Blob Storage Exposure**    
   `site:blob.core.windows.net “Target”`
-  `site:*.core.windows.net “Target”`
+  
+  `site:*.core.windows.net “Target”`  
 
 - **DigitalOcean Spaces Exposure**  
   `site:digitaloceanspaces.com “Target”`
@@ -178,5 +190,5 @@
 - **Gitter Exposure**  
   `site:gitter.im "keyword"`
 
-- **High % inurl keyword**
+- **High % inurl keyword**  
   `inurl:config | inurl:env | inurl:setting | inurl:backup | inurl:admin | inurl:php site:Target`  
