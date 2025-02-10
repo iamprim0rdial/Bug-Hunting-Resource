@@ -21,8 +21,9 @@
   - **Backup Files**  
       `inurl:example.com ext:zip | ext:tar | ext:gz | ext:bz2 | ext:7z | ext:rar  | ext:txt | ext: bak | ext:old | ext:swp | ext:tmp | ext:bkf | ext:bkp | ext:backup | ext:dmp`
   - **Other ext**    
-    ```inurl:example.com intitle:index.of | ext:log | ext:php intitle:phpinfo "published by the PHP Group" | inurl:shell | inurl:backdoor | inurl:wso | inurl:cmd | shadow | passwd | boot.ini |                      inurl:backdoor | inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config | inurl:"/phpinfo.php" | inurl:".htaccess" | ext:swf
-    ```
+    ```bash
+    inurl:example.com intitle:index.of | ext:log | ext:php intitle:phpinfo "published by the PHP Group" | inurl:shell | inurl:backdoor | inurl:wso | inurl:cmd | shadow | passwd | boot.ini |  inurl:backdoor | inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config | inurl:"/phpinfo.php" | inurl:".htaccess" | ext:swf
+    
   
 - **API Secrets Exposure**  
   `inurl:example.com allintext:"API_SECRET*" ext:env | ext:yml`
@@ -83,8 +84,9 @@
 - **RCE prone Parameter**  
   `inurl:cmd | inurl:exec= | inurl:query= | inurl:code= | inurl:do= | inurl:run= | inurl:read= | inurl:ping= inurl:& site:Target`
 
-- **Error prone Parameter**
+- **Error prone Parameter**  
   `inurl:"error" | intitle:"exception" | intitle:"failure" | intitle:"server at" | inurl:exception | "database error" | "SQL syntax" | "undefined index" | "unhandled exception" | "stack trace" site:example[.]com`
+  
 ---
 
 ## **4. Code and Sensitive Data Exposure**
@@ -191,4 +193,8 @@
   `site:gitter.im "keyword"`
 
 - **High % inurl keyword**  
-  `inurl:config | inurl:env | inurl:setting | inurl:backup | inurl:admin | inurl:php site:Target`  
+  `inurl:config | inurl:env | inurl:setting | inurl:backup | inurl:admin | inurl:php site:Target`
+
+- **Slack**
+  `site:domain.com "join.slack"`
+  `site:domain.com "join.slack ext:DIFF_FILE_EXT"`
