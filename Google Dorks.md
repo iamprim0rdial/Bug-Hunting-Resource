@@ -195,9 +195,9 @@
 - **High % inurl keyword**  
   `inurl:config | inurl:env | inurl:setting | inurl:backup | inurl:admin | inurl:php site:Target`
 
-- **Slack**
-  `site:domain.com "join.slack"`
-  `site:domain.com "join.slack ext:DIFF_FILE_EXT"`
+- **Slack**  
+  `site:domain.com "join.slack"`  
+  `site:domain.com "join.slack ext:DIFF_FILE_EXT"`  
 
   
 - **Terms to be added**  
