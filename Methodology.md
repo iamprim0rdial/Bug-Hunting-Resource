@@ -52,7 +52,7 @@
 
 ---
 
-## 8. Automate Testing for Entry Points
+## 8. Automate Testing for [Entry Points](https://github.com/iamprim0rdial/Bug-Hunting-Resource/blob/main/WebApp%20Endpoints.md)
 - Use automated tools to scan and test for vulnerabilities in each identified entry point.
 
 ## 9. **Manual Testing on Each Entry Point**
