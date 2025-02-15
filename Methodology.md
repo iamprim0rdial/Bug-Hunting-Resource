@@ -16,7 +16,7 @@
 *(Gather as much information as possible about the target system.)*
 
 ### Tasks for Reconnaissance:
-1. **Enumerate the possible and alive subdomains, child or sibling domains.**
+1. **Enumerate alive [subdomains enum](https://github.com/iamprim0rdial/Bug-Hunting-Resource/blob/main/Subdomain%20Enum.md), child or sibling domains.**
    - Use tools to discover related subdomains and associated services.
 
 2. **Collect technical details**  
