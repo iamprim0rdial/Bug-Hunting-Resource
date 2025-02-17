@@ -103,6 +103,6 @@ wpscan --disable-tls-checks --url https://red:12380/blogblog/ -e u #disable chec
 wpscan --disable-tls-checks --url https://granularinsurance.com/ -e --force --wp-content-dir https://granularinsurance.com/wp-content/
 
 ```
-
 ---
 
+**you can also check [one-liner-collections](https://github.com/iamprim0rdial/Bug-Hunting-Resource/blob/main/OneLinerCollections.md)**
