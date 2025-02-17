@@ -1,3 +1,7 @@
+**After [Subdomain enumeration](https://github.com/iamprim0rdial/Bug-Hunting-Resource/blob/main/Subdomain%20Enum.md)**
+
+---
+
 - **Nikto**   
 
 `nikto -h live_subdomains.txt -output nikto_results.txt`  
