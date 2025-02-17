@@ -18,7 +18,7 @@
 
 `katana -u https://www.example.com -d 5 -kf -jc -fx -ef woff,svg,png,jpg,jpeg,woff2,gif,css -o katana.txt` 
 
-`cat katana.txt| grep ".js$"`  `Note: grepping js file from katana.txt ` 
+`cat katana.txt| grep ".js$"`  `Note: grepping js file from katana.txt, you grep other files too` 
 
 
 
@@ -32,7 +32,7 @@
 
 - **Screenshotting**
 
-`eyewitness --web -f live_subdomains.txt -threads 5 -d screenshots`
+`cat YOUR_FILE.TXT | aquatone` 
 
 ---
 
