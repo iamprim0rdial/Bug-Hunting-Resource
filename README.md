@@ -39,8 +39,8 @@
 
 ---
 
- **A Few CTFs To Get You Started**<br>
- -**Beginner** 
+ **A Few CTFs To Get You Started 🎮**<br>
+ - **Beginner** 
  
    - **[PicoCTF](https://picoctf.org)** 
    - **[TryHackMe](https://tryhackme.com)** 
@@ -48,7 +48,7 @@
    - **[Hacker101 CTF](https://www.hacker101.com)** 
    - **[Mr. Robot CTF](https://mrrobotctf.com)** 
    - 
--**Intermediate**
+- **Intermediate**
 
    - **[Hack The Box](https://www.hackthebox.eu)** 
    - **[Cyber Skyline](https://cyberskyline.com)** 
