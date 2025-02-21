@@ -1,5 +1,6 @@
 ### GitHub Dorks for Sensitive Information
 
+```bash
 1. `extension:pem private` -- [Private SSH Keys]  
 2. `extension:sql mysql dump` -- [MySQL dumps]  
 3. `extension:sql mysql dump password` -- [MySQL dumps with passwords]  
@@ -183,10 +184,11 @@
 181. `filename:gitconfig` -- [Git configuration files exposing sensitive data]  
 182. `filename:global` -- [Global configuration files with secrets]  
 183. `filename:history` -- [Shell command history files exposing sensitive data]  
-
+```
 ---
 
 **info**
+```
 - PASSWORD
 - PWD
 - KEY
@@ -220,5 +222,5 @@
 - language:sql
 - language:json
 - language:txt
-
+```
 **Note**: All we need to do is search for these keywords in GitHub after "target.com". For example, to look for passwords, we can search **` "target.com" password `** or **` "target.com" pwd `** in GitHub. These dorks are intended to aid you in the search for sensitive files or credentials that might have accidentally been leaked on GitHub. Always ensure that your sensitive data is not committed to public repositories in order to avoid security vulnerabilities.
