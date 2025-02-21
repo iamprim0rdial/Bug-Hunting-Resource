@@ -1,6 +1,4 @@
 # Important File Extensions
-
-## List of Common File Extensions and Their Uses
 ---
 ```shell
 - .php
