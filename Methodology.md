@@ -16,17 +16,17 @@
 *(Gather as much information as possible about the target system.)*
 
 ### Tasks for Reconnaissance:
-1. **Enumerate alive [subdomains enum](https://github.com/iamprim0rdial/Bug-Hunting-Resource/blob/main/Subdomain%20Enum.md), child or sibling domains.**
-   - Use tools to discover related subdomains and associated services.
+1. **Enumerate subdomains enum, child or sibling domains.**
+   - Use tools to discover related **[subdomains](https://github.com/iamprim0rdial/Bug-Hunting-Resource/blob/main/Subdomain%20Enum.md)** and associated services.
 
 2. **Collect technical details**  
-   - Identify the server type, software versions, and dependencies used by the target.
+   - you can ask some questions? the server type, software versions, and dependencies used by the target, for **[more](https://github.com/iamprim0rdial/Bug-Hunting-Resource/blob/main/Questions.md#questions-to-ask-about-the-application)**
 
 3. **Network Configuration**  
    - Investigate firewalls, routing tables, DNS, and other networking configurations.
 
 4. **Publicly Available Information**  
-   - Gather data from Whois records, SSL/TLS certificates, and publicly available source code.
+   - Gather data from Whois records, SSL/TLS certificates, and publicly available source code, or you can use **[Google dork](https://github.com/iamprim0rdial/Bug-Hunting-Resource/blob/main/Google%20Dorks.md)**.
 
 5. **Social Media and Other Online Presence**  
    - Look for information shared on social media platforms or other online presence (e.g., blogs, forums).
