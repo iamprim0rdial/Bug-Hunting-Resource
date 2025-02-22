@@ -199,6 +199,10 @@
   `site:domain.com "join.slack"`  
   `site:domain.com "join.slack ext:DIFF_FILE_EXT"`  
 
-  
+
+  - **Note**
+    ```bash
+    Reshuffle the terms according to your need
+    ```
 - **Terms to be added**  
 `Confidential`, `Privileged`, `Internal Use Only`, `Not for Public Release`, `Restricted Access, Classified`, `Top Secret`, `Proprietary`, `Sensitive Information`, `For Internal Distribution`, `Eyes Only`, `Do Not Distribute`, `Confidential Information`, `For Authorized Personnel`, `Confidential Report`, `Private`, `Limited Access`, `Non-Disclosure`, `Secret`, `Restricted`, `Sensitive`, `For Official Use Only`, `Internal Memo`, `Secure`, `Private Use`, `Classified Information`, `Do Not Share`, `Restricted Distribution`, `Company Confidential`, `Not For External Distribution`, `Confidentiality Agreement`, `Internal Document`, `Company Secrets`, `Protected`, `For Authorized Use`, `Proprietary Information`, `Top-Secret`, `Limited Distribution`, `Non-Disclosure Agreement`, `For Internal Circulation`.
